@@ -1,5 +1,9 @@
 pub fn run() {
-    let nums: [i32; 5] = [1, 2, 3, 4, 5];
-    println!("{:#?}", nums);
+    let string = String::from("test");
+    string_p(string);
 
+}
+
+fn string_p(string: String) {
+    println!("{}", string);
 }

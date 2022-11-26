@@ -3,6 +3,7 @@
 // mod types;
 // mod strings;
 mod test;
+// mod args;
 
 fn main() {
     // print::run();
@@ -10,4 +11,5 @@ fn main() {
     // types::run();
     // strings::run();
     test::run();
+    // args::run();
 }
